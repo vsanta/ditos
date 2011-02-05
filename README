@@ -2,3 +2,58 @@
 Implementação de ditos populares
 ================================
 
+Esse projeto é uma forma de brincadeira de programação. A idéia é implementar a lógica de ditos populares e praticar um pouco de programação, TDD e simple design.
+
+O projeto está aberto para todos que quiserem contribuir com suas implementações em qualquer linguagem.
+
+
+Dependencias
+============
+
+* nose
+
+Para instalar:
+
+easy_install nose
+
+ou
+
+pip install nose
+
+Estrutura
+=========
+
+Pra tentar acomodar qualquer linguagem, separei a estrutura primeiro por linguagem. Ex:
+
+ditos
+├── README
+└── python
+    ├── ditos
+    │   ├── mae
+    │   └── tests
+    └── scripts
+
+Dentro de python/ditos coloquei o pacote da primeira implementação de exemplo: "Mae é tudo igual só muda de endereço".
+
+O diretório scripts é onde quero colocar um rodador de linha de comando que posa ser extendido para as demais implementações.
+
+Para Contribuir
+===============
+
+* ter testes
+* estar verde :)
+* adicionar no Makefile uma foma de rodar os testes
+
+
+Para  Rodar
+===========
+
+make
+
+Próximos passos
+===============
+
+* Runner para os ditados em linha de comando
+* Mais ditados
+
+
